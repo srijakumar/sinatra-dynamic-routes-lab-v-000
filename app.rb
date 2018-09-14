@@ -20,6 +20,7 @@ class App < Sinatra::Base
     params[:number].to_i.times do
       phrase1 += params[:phrase]
     end
+    phrase1
   end
 
 
